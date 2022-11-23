@@ -7,7 +7,7 @@ layout: null
     "copy": {{ site.data.content.settings.contributingResearch | jsonify }}
   },
   "autoInspect":{
-    "headline": {{ site.data.headlines.settings.autoInspect.headline | jsonify }},
+    "headline": {{ site.data.headlines.settings.autoInspect | jsonify }},
     "copy": {{ site.data.content.settings.autoInspect | jsonify }}
   }
 }
