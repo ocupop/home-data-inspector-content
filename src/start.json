@@ -15,4 +15,5 @@ layout: null
   "cta": {
     "label": {{ site.data.buttons.start.label | jsonify }},
     "color": {{ site.data.buttons.start.color | jsonify }}
+  }
 }
