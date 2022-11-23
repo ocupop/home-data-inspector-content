@@ -1,7 +1,5 @@
 ---
 layout: null
-title: FAQ
-object:
 ---
 {
   "headline": {{ page.title | jsonify }},
