@@ -6,10 +6,10 @@
 
 # Site settings
 client: TBD
-title: Ocupop Project Template
-description: This description also used for social share meta
+title: Home Data Inspector Content
+description: Serves up JSON files to be consumed by the Home Data Inspector App
 email: dev@ocupop.com
-url: "http://client_url.com"
+url: ""
 permalink: pretty
 
 placeholder_image: https://via.placeholder.com/1000x1000/333333/000000?text=Placeholder
@@ -19,27 +19,27 @@ placeholder_image: https://via.placeholder.com/1000x1000/333333/000000?text=Plac
 # DEFINE COLLECTIONS
 # (All CloudCannon CMS config is set in cloudcannon.config.yml)
 # ------------------------------------------------
-collections:
-  examples:
-    output: true
-    permalink: /examples/:path/
+# collections:
+#   examples:
+#     output: true
+#     permalink: /examples/:path/
 
 
 # ------------------------------------------------
 # DEFINE DEFAULT VALUES
 # (useful for setting layout for page types without having them editable by the user)
 # ------------------------------------------------
-defaults:
-  -
-    scope:
-      type: 'page'
-    values:
-      layout: default
-  -
-    scope:
-      type: 'post'
-    values:
-      layout: default
+# defaults:
+#   -
+#     scope:
+#       type: 'page'
+#     values:
+#       layout: default
+#   -
+#     scope:
+#       type: 'post'
+#     values:
+#       layout: default
 
 
 # ------------------------------------------------
@@ -48,6 +48,6 @@ defaults:
 safe: false
 sass:
   # style: compressed
-  sass_dir: _scss
-plugins:
-  - jekyll-sitemap
+  # sass_dir: _scss
+# plugins:
+#   - jekyll-sitemap
