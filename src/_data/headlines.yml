@@ -1,6 +1,5 @@
 
-start:
-  main: 'Start Inspecting'
+start: 'Start Inspecting'
 consent: 'Consent Statement'
 faqs: 'FAQs'
 settings:
