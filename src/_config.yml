@@ -12,22 +12,11 @@ email: dev@ocupop.com
 url: "http://client_url.com"
 permalink: pretty
 
-# Social sharing
-socialshare:
-  featured_image:
-  twitter:
-    username:
-    image:
-
-# Google Analytics
-analytics:
-  default:
-
 placeholder_image: https://via.placeholder.com/1000x1000/333333/000000?text=Placeholder
 
 
 # ------------------------------------------------
-# DEFINE COLLECTIONS 
+# DEFINE COLLECTIONS
 # (All CloudCannon CMS config is set in cloudcannon.config.yml)
 # ------------------------------------------------
 collections:
@@ -37,7 +26,7 @@ collections:
 
 
 # ------------------------------------------------
-# DEFINE DEFAULT VALUES 
+# DEFINE DEFAULT VALUES
 # (useful for setting layout for page types without having them editable by the user)
 # ------------------------------------------------
 defaults:
@@ -51,13 +40,7 @@ defaults:
       type: 'post'
     values:
       layout: default
-  -
-    scope:
-      type: 'examples'
-    values:
-      layout: sandbox
-      # variable_name: value
-      
+
 
 # ------------------------------------------------
 # BUILD SETTINGS AND PLUGINS

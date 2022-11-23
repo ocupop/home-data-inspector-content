@@ -1,38 +1,20 @@
 ---
-layout: page
-title: Project Settings
+layout: null
+contributingResearch:
+  headline: "Contributing Research"
+  copy: "<p>By toggling on this option, you are participating in a research study by contributing your network’s data to a larger research effort. The NYU researchers behind this study are particularly interested in learning more about the security and privacy of smart homes.</p><p>If you agree to be in this study, HDI will securely and anonymously send some of the collected data to the NYU researchers. You can find out more about what data we share with the NYU researchers, and how the researchers protect your data by following this FAQ.</p><ul><li>Your participation is voluntary. You are free to toggle on/off this option as frequently and for as long as you like.</li><li><b>Risks:</b> When you agree to contribute your data to research, HDI may be slower and may consume extra bandwidth, as it transmits the collected data about your network to the NYU researchers.</li><li><b>Benefits:</b> You will feel good! — your altruism will lead to real-world data from your smart home being shared with security and privacy researchers.</li></ul>"
+autoInspect:
+  headline: "Automatically inspect new devices as they are discovered"
+  copy: "<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>"
 ---
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h5>General</h5>
-        <p>
-          <strong>Client:</strong> {{ site.client | default: 'incomplete' }}<br />
-          <strong>Project Title:</strong> {{ site.title | default: 'incomplete' }}<br />
-          <strong>Analytics:</strong> {{ site.analytics.default | default: 'incomplete' }}<br />
-          <strong>Permalink Pattern:</strong> {{ site.permalink | default: 'incomplete' }}<br />
-          <strong>Plugins:</strong> {{ site.plugins | default: 'incomplete' }}<br />
-        </p>
-        <hr>
-        <h5>Social Sharing</h5>
-        <p>
-          <strong>Description:</strong><br />
-          {{ site.description | default: 'incomplete' }}
-        </p>
-        <p>
-          <strong>Default Share Image:</strong><br />
-          <img
-            src="{{ site.socialshare.featured_image | default: 'https://via.placeholder.com/1280x630/333333/000000?text=incomplete' }}"
-            alt="{{ site.socialshare.featured_image | default: 'incomplete' }}" class="img-fluid">
-        </p>
-        <p>
-          <strong>Twitter:</strong> {{ site.socialshare.twitter.username | default: 'incomplete' }}<br />
-          <img
-            src="{{ site.socialshare.twitter.image | default: 'https://via.placeholder.com/1280x630/333333/000000?text=incomplete' }}"
-            alt="{{ site.socialshare.twitter.image | default: 'incomplete' }}" class="img-fluid">
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
+
+{
+  "contributingResearch":{
+    "headline": {{ page.contributingResearch.headline | jsonify }},
+    "copy": {{ page.contributingResearch.copy | jsonify }}
+  },
+  "autoInspect":{
+    "headline": {{ page.autoInspect.headline | jsonify }},
+    "copy": {{ page.autoInspect.copy | jsonify }}
+  }
+}

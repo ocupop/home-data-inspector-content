@@ -1,0 +1,22 @@
+---
+layout: json
+title: FAQ
+object:
+---
+{
+  "headline": {{ page.title | jsonify }},
+  "sections": [
+    {% for section in site.data.faq %}
+      {
+        "title": {{ section.title | jsonify }},
+        "faqs": [
+          {% for faq in section.faqs %}
+          {
+            "q": {{ faq.q | jsonify }},
+            "a": {{ faq.a | jsonify }}
+          }{% unless forloop.last %},{% endunless %}{% endfor %}
+        ]
+      }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
