@@ -1,9 +1,8 @@
 ---
 layout: null
-title: 'FAQ'
 ---
 {
-  "headline": {{ page.title | jsonify }},
+  "headline": {{ site.data.headlines.faqs | jsonify }},
   "sections": [
     {% for section in site.data.faq %}
       {

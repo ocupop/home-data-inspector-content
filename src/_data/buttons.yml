@@ -1,0 +1,11 @@
+start:
+  label: 'Get Started'
+  href: '/consent'
+  color: 'btn-primary'
+consent-yes:
+  label: 'I hereby give my consent'
+consent-no:
+  label: 'No, I do not give my consent'
+scan:
+  label: 'Scan Network'
+  color: 'btn-primary'

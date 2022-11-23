@@ -1,0 +1,16 @@
+
+start:
+  main: 'Start Inspecting'
+consent: 'Consent Statement'
+faqs: 'FAQs'
+settings:
+  contributingResearch: "Contributing Research"
+  autoInspect: "Automatically inspect new devices as they are discovered"
+
+
+# More to come...
+# activity: 'Network Activity'
+# endpoints: 'Communication Endppoints'
+# inspecting: 'Inspecting Devices'
+# deviceDetails: ' Device Activity testing'
+
