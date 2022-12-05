@@ -1,0 +1,8 @@
+---
+layout: null
+---
+{
+  {% for n in site.data.notifications %}
+  "{{ n.key }}": {{ n.value | jsonify }}{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+}

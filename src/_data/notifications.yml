@@ -1,0 +1,8 @@
+- key: 'ERROR_GETTING_DEVICES'
+  value: 'Error Getting Devices'
+- key: 'NO_DEVICES'
+  value: 'No Devices were returned'
+- key: 'ERROR_GETTING_USER_CONFIGS'
+  value: 'Error getting user config settings'
+- key: 'ERROR_UPDATING_USER_CONSENT'
+  value: 'We could not retrieve your user consent status'
